@@ -83,7 +83,7 @@ async def weatherwind():
     obj  = urlopen(url)
     data = json.load(obj)
     localtime = time.asctime( time.localtime(time.time()) )
-    forcast = ['Winds above 14.9 mph will result in windy weather\nThe local weather for the next 12 hours will be:\n','Date: \t\t\tTime: \tWeather: \tWind:']
+    forcast = ['The local weather for the next 12 hours will be:\n','Date: \t\t\tTime: \tWeather: \tWind:']
 
     for times in range(12):
         item = data[times]
@@ -129,6 +129,7 @@ async def weatherwind():
             ingame = ingame
             
         forcast.extend([datetime[:10] + '\t' + datetime[11:16] + '\t' + ingame + '\t' + str(wind)])
+    forcast.extend(['Winds above 14.9 mph will result in windy weather'])
     await bot.say('\n'.join(forcast))
 	 
 bot.run('NTA5Njc0NDQ5NzY3NzU5ODcy.DsRP5g.Omf0tiBitc4dwBKCJ_26fkPZA4Q')

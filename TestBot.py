@@ -23,7 +23,7 @@ async def saymyname():
  
 @bot.command()
 async def weather12():
-    url  = 'http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/124594?apikey=ZXXfgvPGM9KIWdOKaGtNVABAbRvDbP29&details=false&metric=true%20HTTP/1.1'
+    url  = 'http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/124594?apikey=FSAQAI4wiFTwxVQjj8IEmGKFSO37gHF4&details=true&metric=true%20HTTP/1.1'
 
     obj  = urlopen(url)
     data = json.load(obj)
@@ -78,7 +78,7 @@ async def weather12():
 
 @bot.command()
 async def weatherwind():
-    url  = 'http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/124594?apikey=ZXXfgvPGM9KIWdOKaGtNVABAbRvDbP29&details=false&metric=true%20HTTP/1.1'
+    url  = 'http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/124594?apikey=FSAQAI4wiFTwxVQjj8IEmGKFSO37gHF4&details=true&metric=true%20HTTP/1.1'
     #url  = 'http://dataservice.accuweather.com/forecasts/v1/hourly/12hour/647339?apikey=FSAQAI4wiFTwxVQjj8IEmGKFSO37gHF4&details=true&metric=true%20HTTP/1.1'
     #await bot.say('This forecast is forecast is for Tilst')
 

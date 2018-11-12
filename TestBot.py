@@ -134,5 +134,4 @@ async def weatherwind():
     forcast.extend(['\nWinds above 14.9 mph will result in windy weather'])
     await bot.say('\n'.join(forcast))
 
-pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.DsrmZA.RFZRfD_6XFigjPuOJBEsHvaRJZk' 
-bot.run(pancakes)
+bot.run('NTA5Njc0NDQ5NzY3NzU5ODcy.DsrmZA.RFZRfD_6XFigjPuOJBEsHvaRJZk')

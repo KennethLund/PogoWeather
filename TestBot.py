@@ -38,7 +38,7 @@ async def weather12():
 
         ingame = []
 
-        if weather == 'Partly sunny' or weather == 'Intermittent clouds' or weather == 'Partly Cloudy' or weather == 'Partly sunny w/ Showers' or weather == 'Partly Cloudy w/ Showers' or weather == 'Partly sunny w/ Flurries' or weather == 'Partly sunny w/ T-Storms' or weather == 'Partly Cloudy w/ T-Storms':
+        if weather == 'Partly sunny' or weather == 'Intermittent clouds' or weather == 'Partly cloudy' or weather == 'Partly sunny w/ Showers' or weather == 'Partly Cloudy w/ Showers' or weather == 'Partly sunny w/ Flurries' or weather == 'Partly sunny w/ T-Storms' or weather == 'Partly Cloudy w/ T-Storms':
             ingame = 'Partly cloudy'
         else:
             ingame = ingame
@@ -95,7 +95,7 @@ async def weatherwind():
 
         ingame = []
 
-        if weather == 'Partly sunny' or weather == 'Intermittent clouds' or weather == 'Partly Cloudy' or weather == 'Partly sunny w/ Showers' or weather == 'Partly Cloudy w/ Showers' or weather == 'Partly sunny w/ Flurries' or weather == 'Partly sunny w/ T-Storms' or weather == 'Partly Cloudy w/ T-Storms':
+        if weather == 'Partly sunny' or weather == 'Intermittent clouds' or weather == 'Partly cloudy' or weather == 'Partly sunny w/ Showers' or weather == 'Partly Cloudy w/ Showers' or weather == 'Partly sunny w/ Flurries' or weather == 'Partly sunny w/ T-Storms' or weather == 'Partly Cloudy w/ T-Storms':
             ingame = 'Partly cloudy'
         else:
             ingame = ingame

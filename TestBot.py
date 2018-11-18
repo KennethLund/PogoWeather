@@ -43,7 +43,7 @@ async def weather12():
         else:
             ingame = ingame
             
-        if weather == 'Mostly cloudy' or weather == 'Cloudy' or weather == 'Mostly cloudy w/ Showers' or weather == 'Mostly cloudy w/ T-Storms' or weather == 'Mostly cloudy w/ Flurries' or weather == 'Hazy Sunshine' or weather == 'Hazy Moonlight':
+        if weather == 'Mostly cloudy' or weather == 'Cloudy' or weather == 'Mostly cloudy w/ showers' or weather == 'Mostly cloudy w/ T-Storms' or weather == 'Mostly cloudy w/ Flurries' or weather == 'Hazy Sunshine' or weather == 'Hazy Moonlight':
             ingame = 'Cloudy'
         else:
             ingame = ingame
@@ -100,7 +100,7 @@ async def weatherwind():
         else:
             ingame = ingame
             
-        if weather == 'Mostly cloudy' or weather == 'Cloudy' or weather == 'Mostly cloudy w/ Showers' or weather == 'Mostly cloudy w/ T-Storms' or weather == 'Mostly cloudy w/ Flurries' or weather == 'Hazy Sunshine' or weather == 'Hazy Moonlight':
+        if weather == 'Mostly cloudy' or weather == 'Cloudy' or weather == 'Mostly cloudy w/ showers' or weather == 'Mostly cloudy w/ T-Storms' or weather == 'Mostly cloudy w/ Flurries' or weather == 'Hazy Sunshine' or weather == 'Hazy Moonlight':
             ingame = 'Cloudy'
         else:
             ingame = ingame

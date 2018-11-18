@@ -135,5 +135,5 @@ async def weatherwind():
     await bot.say('\n'.join(forcast))
 
 token = 'NTA5Njc0NDQ5NzY3NzU4ODcy.Dsro3g.KoC7H7PSECN1PrmZKf3a5ytDV3U'
-pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.Dsro3g.KoC7H7PSECN1PrmZKf3aOytDV1U'
+pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.DtLKpg.bw44VYsTe4-ohMgAH0z_oBgZiJw'
 bot.run(pancakes)

@@ -194,5 +194,7 @@ async def weathertilst():
     await bot.say('\n'.join(forcast))
 
 token = 'NTA5Njc0NDQ5NzY3NzU4ODcy.Dsro3g.KoC7H7PSECN1PrmZKf3a5ytDV3U'
-pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.Dtmwag.cTik4CEiZRtl3ZKHypARVr9uPVM'
-bot.run(pancakes)
+pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.Dtrarw.ndFwxW_xv7PjSh9OU5IJUihMF6I'
+with = pancakes
+blueberries = with
+bot.run(blueberries)

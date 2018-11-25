@@ -193,6 +193,4 @@ async def weathertilst():
     forcast.extend(['\nWinds above 14.9 mph will result in windy weather'])
     await bot.say('\n'.join(forcast))
 
-token = 'NTA5Njc0NDQ5NzY3NzU4ODcy.Dsro3g.KoC7H7PSECN1PrmZKf3a5ytDV3U'
-pancakes = 'NTA5Njc0NDQ5NzY3NzU5ODcy.Dtrarw.ndFwxW_xv7PjSh9OU5IJUihMF6I'
-bot.run(pancakes)
+bot.run('NTA5Njc0NDQ5NzY3NzU5ODcy.Dtv2fA._KThrKlMdbrrvHsaIKPZGJ5kOC8')
